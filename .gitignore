@@ -4,10 +4,8 @@ __pycache__/
 build/
 *.egg-info/
 
-# Compiled C-Extensions
-*.pyd
-*.so
-*.dll
+# Ignore C Source Code & Encoder (เฉลยฝั่ง Server)
+src/
 
 # Environment
 .venv/
